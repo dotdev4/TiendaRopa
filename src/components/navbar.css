@@ -9,13 +9,15 @@
     color: #fff;
     height: 4rem;
     width: 100%;
+    z-index: 1;
   }
   
   .nav-bar .logo {
     font-size: 1.5rem;
-    font-weight: 600;
     letter-spacing: 0.1rem;
     margin-left: 1rem;
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
   }
   
   
@@ -25,7 +27,7 @@
     justify-content: space-between;
     align-items: center;
     width: 40%;
-    margin-left: 12rem;
+    margin-left: 2rem;
     height: 2rem;
     background-color: #fff;
     border-radius: 0.5rem;

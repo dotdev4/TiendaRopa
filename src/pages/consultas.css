@@ -1,0 +1,66 @@
+.consultas-container{
+    margin-top: 8rem;
+    margin-left: 2rem;
+    
+}
+.consultas-list{
+    display: flex;
+    flex-direction: column;
+}
+.consultas-list-ul li{
+    padding: 1rem;
+    border: 1px solid #ccc;
+    width: 20%;
+    cursor: pointer;
+}
+
+.quienes-somos{
+    width: 80%;
+    position: absolute;
+    top: 6.5rem;
+    left: 24rem;
+}
+.quienes-somos h1{
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: none;
+    color: #505050;
+}
+.quienes-somos h3{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.quienes-somos p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #505050;
+}
+.envio{
+    
+    width: 80%;
+    position: absolute;
+    top: 6.5rem;
+    left: 22rem;
+    
+}
+.envio h1{
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: none;
+    color: #505050;
+}
+.envio h3{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.envio p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #505050;
+}
