@@ -1,0 +1,88 @@
+.footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem 1rem 2rem;
+    background-color: #242424;
+    color: #fff;
+    height: 7.4rem;
+  }
+  
+  /* seccion asistencia */
+  .footer .asistencia .asistencia-text{
+    position: absolute;
+    margin-top: -1.4rem;
+    margin-left: 3.6rem;
+  }
+
+  .footer .asistencia .asistencia-ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+  }
+  
+  .footer .asistencia .asistencia-ul-2{
+    display: flex;
+    margin-left: 1rem;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+
+  /* seccion de cpyright */
+  .footer .asistencia{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    font-size: 0.9rem;
+    left: 5rem;
+  }
+
+  
+  .footer .footer-copyright{
+    color: rgb(112, 107, 107);
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+
+  /* seccion redes */
+
+  .footer .footer-redes .redes-text{
+    position: absolute;
+    top: -4.5rem;
+    right: 3rem;
+    
+    font-size: 0.9rem;
+  }
+  .footer .footer-redes{
+      position: absolute;
+      right: 3rem;  
+      margin-top: 1rem;
+      font-size: 2rem;
+      
+  }
+
+  .footer .footer-redes .footer-redes-ul{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: -1.4rem;
+    right: 3rem;
+    gap: 0.9rem;
+    cursor: pointer;
+  }
+
+  
+  
